@@ -12,15 +12,15 @@
     width: 34%;
 }
 
-
 .Nav-Btn {
     background-color: #323232;
-    font-family: Raleway Light;
+    font-family: "Raleway";
+    font-style: light;
     text-decoration: none;
     font-size: 250%;
     color: #FFFFFF;
     border-width: 0;
-    
+
 }
 
 a.Nav-Btn:hover {
@@ -28,7 +28,7 @@ a.Nav-Btn:hover {
 }
 
 a.Nav-Btn:click {
-    
+
 }
 
 #NavBtnDiv {
