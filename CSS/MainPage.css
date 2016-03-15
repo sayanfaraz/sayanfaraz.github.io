@@ -9,7 +9,7 @@
   font-style: light;
 
   text-decoration: none;
-  font-size: 3.5vh;
+  font-size: 3.5vmax;
 }
 
 .Nav-Btn {
@@ -17,8 +17,8 @@
     text-align: center;
 
     border-width: 0;
-    height: 9vh;
-    line-height: 9vh;
+    height: 9vmax;
+    line-height: 9vmax;
 }
 
 a.Nav-Btn:hover {
@@ -27,4 +27,14 @@ a.Nav-Btn:hover {
 
 a.Nav-Btn:click {
 
+}
+
+.contact-icon {
+
+  width: 2em;
+  height: 2em;
+}
+
+#twitter-icon {
+  background-color: #55acee;
 }
