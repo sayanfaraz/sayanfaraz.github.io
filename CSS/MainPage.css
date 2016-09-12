@@ -1,6 +1,23 @@
+#Home {
+    background-color: #ffffff;
+}
+
 #Bg-img {
-    width: 100%;
-    height: 100%;
+    max-width: 50%;
+    max-height: inherit;
+
+    min-width: 140pt;
+    min-height: inherit;
+
+    padding-right: 0;
+    margin-right: 0;
+    border-left: 0;
+}
+
+#landing-text {
+    color: #3d97a2;
+    font-size: 500%;
+    padding: 35% 15% 35% 15%;
 }
 
 .Nav-Btn-Text {
@@ -14,6 +31,7 @@
 
 .Nav-Btn {
     background-color: #323232;
+    /*background-color: #3d97a2;*/
     text-align: center;
 
     border-width: 0;
@@ -26,7 +44,7 @@ a.Nav-Btn:hover {
 }
 
 a.Nav-Btn:click {
-
+    
 }
 
 .contact-icon {
