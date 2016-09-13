@@ -16,17 +16,17 @@
 
 <!--CONTAINER DIV-->
 <div class="container-fluid">
-  <!--Home Page div-->
+  <!--LANDING PAGE DIV-->
   <div class="row" id="Home">
 
-      <!--Background Image-->
+      <!--Right Column: Sayan Faraz-->
       <div class="col-md-6">
           <h1 id="landing-text">sayan faraz</h1>
       </div>
+      <!-- Left Column: Picture -->
       <div class="col-md-6" id="Bg-img">
-          <img src="Files/Pictures/sayan_pic.jpg" class="img-responsive" >
+          <img src="Files/Pictures/sayan_pic.jpg" class="img-responsive img-circle" >
       </div>
-      <!--(subtitle text)-->
 
   </div>
 
@@ -34,53 +34,85 @@
   <div class="row" id="NavBtnDiv">
       <!--Home-->
       <div class="Nav-Btn col-sm-3">
-          <a href="#Home"><h1>HOME</h1></a>
+          <a href="#Home" class="Nav-Btn-Text"><h1>HOME</h1></a>
       </div>
 
       <!--Who I Am-->
       <div class="Nav-Btn col-sm-3">
-          <a class="Nav-Btn-Text"><h1>WHO I AM</h1></a>
+          <a href="#WhoIAm" class="Nav-Btn-Text"><h1>WHO I AM</h1></a>
       </div>
+
       <!--Projects-->
       <div class="Nav-Btn col-sm-3">
-          <a class="Nav-Btn-Text"><h1>PROJECTS</h1></a>
+          <a href="#Projects" class="Nav-Btn-Text"><h1>PROJECTS</h1></a>
       </div>
 
       <!--Contact Me-->
       <div class="Nav-Btn col-sm-3">
-          <a class="Nav-Btn-Text"><h1>CONTACT ME</h1></a>
+          <a href="#ContactMe" class="Nav-Btn-Text"><h1>CONTACT ME</h1></a>
       </div>
   </div>
 
-  <!--This Page is Under Construction!-->
-  <div class="row">
-    <div class="col-sm-8 col-offset-sm-2">
-      <h1>This page is currently under construction :O</h1>
-      <p>Once I'm done building the site, you can learn more about me and what I love to do. In the meantime, feel free to look at my resume and portfolios.</p>
-
-      <h2><img class="contact-icon" src="Files/Pictures/In-2C-108px-R.png"><a href="https://ca.linkedin.com/in/sayanfaraz">&ensp; /sayanfaraz</a></h2>
-      <h2> <img class="img-rounded contact-icon" src="Files/Pictures/GitHub-Mark-120px-plus.png"><a href="https://github.com/sayanfaraz">&ensp;  sayanfaraz</a></h2>
-      <h2> <img class="img-rounded contact-icon" id="twitter-icon" src="Files/Pictures/TwitterLogo_white.png"> <a href="https://twitter.com/sayanfaraz">&ensp;@SayanFaraz</a></h2>
-    </div>
-  </div>
-
   <!--Who I Am div-->
-  <div></div>
+  <div class="row" id="WhoIAm">
+      <div class="col-md-1 col-sm-1"></div>
+      <div class="col-md-10 col-sm-10">
+          <h1>
+              I'm an amateur neurotechnologist, and an aspiring entrepreneur. I'm in my third year of physics and computer science at the University of Toronto. Usually you'll find me leading my club, <a href="neurotechuoft.github.io">NeurotechUofT</a>. When I'm not doing that, I love to read and think about cognitive science and neurotechnology, work on software and hardware projects, or enjoy some great music.
+          </h1>
+      </div>
+      <div class="col-md-1 col-sm-1"></div>
+  </div>
 
 
   <!--Projects div-->
-  <div>
-      <!--Have 6 of my most prominent projects as icons-->
+  <div class="row" id="Projects">
+      <!-- Flappy Bird -->
+      <h1>PROJECTS</h1>
+      <br>&nbsp;</br>
+
+      <div class="col-md-1 col-sm-1"></div>
+      <div class="col-md-5 col-sm-5">
+          <a href="https://github.com/sayanfaraz/FlappyBird">
+              <img src="Files/Pictures/flappy_bird.png" alt="Flappy Bird Screenshot" class="img-responsive">
+          </a>
+      </div>
+      <div class="col-md-5 col-sm-5">
+          <a href="http://neurotechuoft.github.io">
+              <img src="Files/Pictures/neurotechUofT.jpg" alt="Flappy Bird Screenshot" class="img-responsive">
+          </a>
+      </div>
+      <!-- NeurotechUofT -->
   </div>
 
 
-  <!--Contact Me div-->
-  <div>
-      <!--Buttons-->
-      <div>
+  <!--Contact Me Buttons div-->
+  <div class="row" id="ContactMe">
+      <div class="col-md-1 col-sm-1"></div>
+      <!--LinkedIn-->
+      <div class="col-md-3">
+          <h2>
+              <img class="contact-icon" src="Files/Pictures/In-2C-108px-R.png">
+              <a href="https://ca.linkedin.com/in/sayanfaraz">&ensp; /sayanfaraz</a>
+          </h2>
+      </div>
+      <!--GitHub-->
+      <div class="col-md-3">
+          <h2>
+              <img class="img-rounded contact-icon" src="Files/Pictures/GitHub-Mark-120px-plus.png">
+              <a href="https://github.com/sayanfaraz">&ensp;  sayanfaraz</a>
+          </h2>
+      </div>
+      <!--Twitter-->
+      <div class="col-md-3">
+          <h2>
+              <img class="img-rounded contact-icon" id="twitter-icon" src="Files/Pictures/TwitterLogo_white.png">
+              <a href="https://twitter.com/sayanfaraz">&ensp;@SayanFaraz</a>
+          </h2>
+      </div>
           <!--Email-->
-          <!--LinkedIn-->
-          <!--GitHub-->
+
+
           <!--maybe Codepen? Other stuff from Free Code Camp-->
       </div>
   </div>
