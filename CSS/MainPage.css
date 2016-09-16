@@ -1,11 +1,16 @@
+/***************************CSS: GENERAL PROPERTIES***************************/
+/*Link color*/
 a:link, a:visited {
     color: #2B5F94;
 }
 
+
+/*****************************LANDING PAGE -- HOME*****************************/
 #Home {
     background-color: #ffffff;
 }
 
+/*Bg pic of me*/
 #Bg-img {
     max-width: 50%;
     max-height: inherit;
@@ -20,6 +25,7 @@ a:link, a:visited {
     margin-right: 0;
 }
 
+/*Landing text: sayan faraz*/
 #landing-text {
     color: #3d97a2;
     font-size: 500%;
@@ -27,6 +33,8 @@ a:link, a:visited {
     text-align: center;
 }
 
+/*Proper scaling for different media*/
+/*mobile*/
 @media (min-width: 768px) {
     #landing-text {
         padding: 20% 15% 20% 15%;
@@ -43,7 +51,7 @@ a:link, a:visited {
         margin-left: 0%;
     }
 }
-
+/*desktop -- used for smoothing out sayan \n faraz vs sayan faraz*/
 @media (min-width: 1165px) {
     #landing-text {
         padding: 32% 15% 32% 15%;
@@ -52,9 +60,7 @@ a:link, a:visited {
 }
 
 
-
-
-
+/****************************LANDING PAGE: NAV BAR****************************/
 .Nav-Btn-Text {
   /*color: #FFFFFF;*/
   color: #3d97a2;
@@ -83,6 +89,23 @@ a.Nav-Btn:click {
 
 }
 
+
+/****************************LANDING PAGE: WHO AM I****************************/
+#WhoIAm {
+    text-align: center;
+    padding: 10% 0% 10% 0%;
+    background-color: #3d97a2;
+    color: #ffffff;
+}
+
+
+/****************************LANDING PAGE: PROJECTS****************************/
+#Projects {
+    padding: 10% 0% 10% 0%;
+    text-align: center;
+}
+
+/*****************************LANDING PAGE-CONTACT*****************************/
 .contact-icon {
 
   width: 2em;
@@ -91,16 +114,4 @@ a.Nav-Btn:click {
 
 #twitter-icon {
   background-color: #55acee;
-}
-
-#WhoIAm {
-    text-align: center;
-    padding: 10% 0% 10% 0%;
-    background-color: #3d97a2;
-    color: #ffffff;
-}
-
-#Projects {
-    padding: 10% 0% 10% 0%;
-    text-align: center;
 }
