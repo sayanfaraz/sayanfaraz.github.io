@@ -1,3 +1,4 @@
+
 /***************************CSS: GENERAL PROPERTIES***************************/
 /*Link color*/
 a:link, a:visited {
@@ -33,11 +34,25 @@ a:link, a:visited {
     text-align: center;
 }
 
+.landing-link {
+    color: #3d97a2;
+    font-size: 300%;
+
+    text-align: center;
+}
+
 /*Proper scaling for different media*/
 /*mobile*/
+@media (min-width: 0px) {
+    #landing-text {
+        margin-bottom: -3%;
+    }
+}
+
 @media (min-width: 768px) {
     #landing-text {
-        padding: 20% 15% 20% 15%;
+        padding: 20% 15% 0% 15%;
+        margin-bottom: -3%;
         font-size: 500%;
     }
 
@@ -54,7 +69,8 @@ a:link, a:visited {
 /*desktop -- used for smoothing out sayan \n faraz vs sayan faraz*/
 @media (min-width: 1165px) {
     #landing-text {
-        padding: 32% 15% 32% 15%;
+        padding: 32% 15% 0% 15%;
+        margin-bottom: -3%;
         font-size: 500%;
     }
 }
