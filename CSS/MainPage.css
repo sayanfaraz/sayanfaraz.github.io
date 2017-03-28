@@ -5,7 +5,7 @@ a:link, a:visited {
     color: #2B5F94;
 }
 
-body {
+/*body {
     -webkit-animation-delay: 0.1s;
     -webkit-animation-name: fontfix;
     -webkit-animation-duration: 0.1s;
@@ -16,13 +16,13 @@ body {
 @-webkit-keyframes fontfix {
     from { opacity: 1; }
     to   { opacity: 1; }
-}
+}*/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif;
 }
 p, div {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
 }
 
 /*****************************LANDING PAGE -- HOME*****************************/
