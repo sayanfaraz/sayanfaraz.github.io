@@ -7,10 +7,12 @@
     <!--ADD FONTS-->
     <link href='https://fonts.googleapis.com/css?family=Raleway:300,100' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/font-mfizz-2.4.1/font-mfizz.css">
 
     <!--ADD CSS, BOOTSTRAP-->
     <link rel="stylesheet" type="text/css" href="CSS/MainPage.css">
-    <link rel="stylesheet" type="text/css" href="CSS/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="CSS/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!--Configure Viewport-->
     <meta name=viewport content="width=device-width, initial-scale=1">
@@ -29,6 +31,7 @@
       <!--Right Column: Sayan Faraz-->
       <div class="col-md-6 col-sm-6">
           <h1 id="landing-text">sayan faraz</h1>
+          <h2 class="landing-subtext">software, neurotech, entrepreneurship</h2>
 
           <h1 class="landing-link">
               <!-- GitHub -->
@@ -51,6 +54,13 @@
                   <i class="fa fa-twitter" aria-hidden="true"></i>
               </a>
 
+
+
+          </h1>
+          <h1 class="landing-subtext">
+              <a href="./Files/Sayan_Faraz-Resume.pdf" class="btn btn-success" style="font-size:100%;color:white">
+                  Resume
+              </a>
           </h1>
       </div>
 
@@ -69,44 +79,88 @@
           <a href="#WhoIAm" class="Nav-Btn-Text"><h1>WHO I AM</h1></a>
       </div>
 
+      <!--Skills-->
+      <div class="Nav-Btn col-sm-3">
+          <a href="#Skills" class="Nav-Btn-Text"><h1>SKILLS</h1></a>
+      </div>
+
       <!--Projects-->
       <div class="Nav-Btn col-sm-3">
           <a href="#Projects" class="Nav-Btn-Text"><h1>PROJECTS</h1></a>
       </div>
 
-      <!--Contact Me-->
-      <div class="Nav-Btn col-sm-3">
-          <a href="#ContactMe" class="Nav-Btn-Text"><h1>CONTACT ME</h1></a>
-      </div>
+
   </div>
 
   <!--Who I Am div-->
-  <div class="row" id="WhoIAm">
+  <div class="row landing-page-section" id="WhoIAm">
       <div class="col-md-1 col-sm-1"></div>
       <div class="col-md-10 col-sm-10">
           <h1>
-              I'm an amateur neurotechnologist, and an aspiring entrepreneur. I'm in my third year of physics and computer science at the University of Toronto. Usually you'll find me leading my club, <a href="neurotechuoft.github.io">NeurotechUofT</a>. When I'm not doing that, I love to read and think about cognitive science and neurotechnology, work on software and hardware projects, or enjoy some great music.
+              I'm an amateur neurotechnologist, and an aspiring entrepreneur. I'm in my third year of physics and computer science at the University of Toronto. Usually you'll find me leading my club, <a href="neurotechuoft.github.io" style="font-weight:bolder;color:white">NeurotechUofT</a>. When I'm not doing that, I love to read and think about cognitive science and neurotechnology, work on software and hardware projects, or enjoy some great music.
           </h1>
       </div>
       <div class="col-md-1 col-sm-1"></div>
   </div>
 
+  <!--Skills div-->
+  <div class="row landing-page-section" id="Skills">
+      <!-- <h1>SKILLS</h1> -->
+      <div class="col-md-1 col-sm-1"></div>
+
+      <div class="row">
+          <div class="col-md-12">
+
+              <i class="icon-shell skill-icon-lg"></i>
+              <i class="icon-git skill-icon-lg"></i>
+              <i class="icon-html5-alt skill-icon-lg"></i>
+              <i class="icon-python skill-icon-lg"></i>
+              <i class="icon-java-bold skill-icon-lg"></i>
+              <i class="icon-c skill-icon-lg"></i>
+              <i class="icon-css3-alt skill-icon-lg"></i>
+              <i class="icon-postgres skill-icon-lg"></i>
+
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12">
+              <h1>Concepts: </h1>
+              <h2>test-driven development, Agile, design patterns, memory model, BCIs, </h2>
+              <h2></h2>
+          </div>
+      </div>
+
+      <div class="row">
+          <div class="col-md-12">
+              <button type="button" class="btn btn-success" style="font-size:250%">
+                  <a href="./Files/Sayan_Faraz-Resume.pdf" style="color:white">Resume</a>
+              </button>
+          </div>
+      </div>
+
+
+
+
+      <div class="col-md-1 col-sm-1"></div>
+  </div>
+
 
   <!--Projects div-->
-  <div class="row" id="Projects">
+  <div class="row landing-page-section" id="Projects">
       <!-- Flappy Bird -->
       <h1><a href="projects.html">PROJECTS</a></h1>
       <br>&nbsp;</br>
 
-      <div class="col-md-1 col-sm-1"></div>
+      <div class="col-md-2 col-sm-2"></div>
       <div class="col-md-5 col-sm-5">
           <a href="https://github.com/sayanfaraz/FlappyBird">
-              <img src="Files/Pictures/flappy_bird.png" alt="Flappy Bird Screenshot" class="img-responsive">
+              <img src="Files/Pictures/flappy_bird.png" style="max-height:350px" alt="Flappy Bird Screenshot" class="img-responsive">
           </a>
       </div>
       <div class="col-md-5 col-sm-5">
           <a href="http://neurotechuoft.github.io">
-              <img src="Files/Pictures/neurotechUofT.jpg" alt="Flappy Bird Screenshot" class="img-responsive">
+              <img src="Files/Pictures/neurotechUofT.jpg" style="max-height:350px" alt="Flappy Bird Screenshot" class="img-responsive">
           </a>
       </div>
       <!-- NeurotechUofT -->

@@ -3,8 +3,16 @@
 /*Link color*/
 a:link, a:visited {
     color: #2B5F94;
+    /*font-weight: bold;*/
 }
 
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+}
+p, div {
+    font-family: 'Raleway';
+}
 
 /*****************************LANDING PAGE -- HOME*****************************/
 #Home {
@@ -16,7 +24,7 @@ a:link, a:visited {
     max-width: 50%;
     max-height: inherit;
 
-    min-width: 80pt;
+    min-width: 75pt;
     min-height: inherit;
 
     padding-right: 0;
@@ -30,6 +38,14 @@ a:link, a:visited {
 #landing-text {
     color: #3d97a2;
     font-size: 500%;
+    font-weight: bold;
+    font-family: 'Cabin', sans-serif;
+    text-align: center;
+}
+
+.landing-subtext {
+    color: #3d97a2;
+    /*font-size: 300%;*/
 
     text-align: center;
 }
@@ -51,8 +67,8 @@ a:link, a:visited {
 
 @media (min-width: 768px) {
     #landing-text {
-        padding: 20% 15% 0% 15%;
-        margin-bottom: -3%;
+        padding: 19% 15% 0% 15%;
+        margin-bottom: 0%;
         font-size: 500%;
     }
 
@@ -69,8 +85,8 @@ a:link, a:visited {
 /*desktop -- used for smoothing out sayan \n faraz vs sayan faraz*/
 @media (min-width: 1165px) {
     #landing-text {
-        padding: 32% 15% 0% 15%;
-        margin-bottom: -3%;
+        padding: 31% 15% 0% 15%;
+        margin-bottom: 0%;
         font-size: 500%;
     }
 }
@@ -105,11 +121,17 @@ a.Nav-Btn:click {
 
 }
 
+/****************************LANDING PAGE: SECTIONS****************************/
+.landing-page-section {
+    text-align: center;
+    padding: 10% 0% 10% 0%;
+}
+
 
 /****************************LANDING PAGE: WHO AM I****************************/
 #WhoIAm {
-    text-align: center;
-    padding: 10% 0% 10% 0%;
+    /*text-align: center;
+    padding: 10% 0% 10% 0%;*/
     background-color: #3d97a2;
     color: #ffffff;
 }
@@ -117,8 +139,24 @@ a.Nav-Btn:click {
 
 /****************************LANDING PAGE: PROJECTS****************************/
 #Projects {
-    padding: 10% 0% 10% 0%;
+    padding: 5% 0% 10% 0%;
+    /*text-align: center;*/
+}
+
+/*****************************LANDING PAGE: SKILLS*****************************/
+#Skills {
+    padding: 5% 0% 0% 0%;
     text-align: center;
+}
+
+.skill-icon-lg {
+    font-size: 1000%;
+    color: #3d97a2;
+}
+
+.skill-icon-md {
+    font-size: 700%;
+    color: #3d97a2;
 }
 
 /*****************************LANDING PAGE-CONTACT*****************************/
