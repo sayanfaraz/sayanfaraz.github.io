@@ -1,4 +1,12 @@
+/**********************************UTITLITIES**********************************/
+.row-align-cols-center {
+    text-align: center;
+}
 
+.row-align-cols-center > * {
+    display:inline-block;
+    float:none;
+}
 /***************************CSS: GENERAL PROPERTIES***************************/
 /*Link color*/
 a:link, a:visited {
