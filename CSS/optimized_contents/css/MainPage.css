@@ -1,0 +1,31 @@
+a:link, a:visited{color:#2B5F94;}
+body{-webkit-animation-delay:0.1s;-webkit-animation-name:fontfix;-webkit-animation-duration:0.1s;-webkit-animation-iteration-count:1;-webkit-animation-timing-function:linear;}
+@-webkit-keyframes fontfix{from{opacity:1;}
+to{opacity:1;}
+}
+h1, h2, h3, h4, h5, h6{font-family:'Raleway', sans-serif;}
+p, div{font-family:'Raleway';}
+#Home{background-color:#ffffff;}
+#Bg-img{max-width:50%;max-height:inherit;min-width:75pt;min-height:inherit;padding-right:0;margin-left:25%;margin-right:0;}
+#landing-text{color:#3d97a2;font-size:500%;font-weight:bold;font-family:'Cabin', sans-serif;text-align:center;}
+.landing-subtext{color:#3d97a2;text-align:center;}
+.landing-link{color:#3d97a2;font-size:300%;text-align:center;}
+@media (min-width:0px){#landing-text{margin-bottom:-3%;}
+}
+@media (min-width:768px){#landing-text{padding:19% 15% 0% 15%;margin-bottom:0%;font-size:500%;}
+#Bg-img{max-width:100%;max-height:inherit;min-width:90pt;min-height:inherit;margin-left:0%;}
+}
+@media (min-width:1165px){#landing-text{padding:31% 15% 0% 15%;margin-bottom:0%;font-size:500%;}
+}
+.Nav-Btn-Text{color:#3d97a2;font-family:"Raleway", sans-serif;font-style:light;text-decoration:none;font-size:1;}
+.Nav-Btn{text-align:center;border-width:0;height:2;line-height:1;}
+a.Nav-Btn:hover{color:#3d97a2;}
+a.Nav-Btn:click{}
+.landing-page-section{text-align:center;padding:10% 0% 10% 0%;}
+#WhoIAm{background-color:#3d97a2;color:#ffffff;}
+#Projects{padding:5% 0% 10% 0%;}
+#Skills{padding:5% 0% 0% 0%;text-align:center;}
+.skill-icon-lg{font-size:1000%;color:#3d97a2;}
+.skill-icon-md{font-size:700%;color:#3d97a2;}
+.contact-icon{width:2em;height:2em;}
+#twitter-icon{background-color:#55acee;}
