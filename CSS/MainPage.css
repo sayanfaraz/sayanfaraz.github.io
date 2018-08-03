@@ -155,6 +155,11 @@ a.Nav-Btn:click {
     color: #ffffff;
 }
 
+#WhoIAm a {
+    font-weight:bolder;
+    color:white;
+}
+
 
 /****************************LANDING PAGE: PROJECTS****************************/
 #Projects {
@@ -174,8 +179,12 @@ a.Nav-Btn:click {
 }
 
 .skill-icon-md {
-    font-size: 700%;
+    font-size: 600%;
     color: #3d97a2;
+}
+
+.skill-icon-spacing {
+    padding-right: 2vw;
 }
 
 /*****************************LANDING PAGE-CONTACT*****************************/
