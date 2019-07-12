@@ -40,16 +40,16 @@ p, div {
 
 /*Bg pic of me*/
 #Bg-img {
-    max-width: 50%;
+    max-width: 5%;
     max-height: inherit;
 
-    min-width: 75pt;
+    min-width: 0pt;
     min-height: inherit;
 
-    padding-right: 0;
     margin-left: 25%;
-    /*padding-top: 5%;
-    padding-bottom: 5%;*/
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
     margin-right: 0;
 }
 
@@ -86,7 +86,7 @@ p, div {
 
 @media (min-width: 768px) {
     #landing-text {
-        padding: 19% 15% 0% 15%;
+        padding: 9% 15% 0% 15%;
         margin-bottom: 0%;
         font-size: 500%;
     }
@@ -98,13 +98,18 @@ p, div {
         min-width: 90pt;
         min-height: inherit;
 
+        /* margin-bottom: vw; */
+        margin-top: 5vmin;
+        /* padding-bottom: 5%;
+        padding-right: 5%; */
+
         margin-left: 0%;
     }
 }
 /*desktop -- used for smoothing out sayan \n faraz vs sayan faraz*/
 @media (min-width: 1165px) {
     #landing-text {
-        padding: 31% 15% 0% 15%;
+        padding: 9% 15% 0% 15%;
         margin-bottom: 0%;
         font-size: 500%;
     }
